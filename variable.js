@@ -1,4 +1,4 @@
 var age=26;
-var name1="John";
+var name="John";
 const livesIn="USA";
-console.log(age,name1,livesIn);
+console.log(age,);
