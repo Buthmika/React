@@ -12,4 +12,4 @@ class square{
 }
 const newSquare =new square(10);
 console.log(newSquare.getArea());
-//console.log(square.calArea());
+console.log(square.calArea(5,6));
