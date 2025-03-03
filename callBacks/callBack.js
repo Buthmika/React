@@ -1,5 +1,7 @@
 function openFile(){
-      console.log('File Opened');
+      setTimeout(()=>{
+            console.log('File Opened');
+      },2000);
 }
 function addSomethung(){
       console.log('Something Added');
@@ -7,3 +9,5 @@ function addSomethung(){
 function removeSomething(){
       console.log('Something Removed');
 }
+openFile();
+addSomethung();
