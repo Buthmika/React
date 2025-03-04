@@ -1,6 +1,7 @@
-function openFile(){
+function openFile(callback){
       setTimeout(()=>{
             console.log('File Opened');
+            callback();
       },3000);
       
 }
@@ -10,7 +11,5 @@ function addSomething(){
 function removeSomething(){
       console.log('Something Removed');
 }
-openFile();
-addSomething();
-openFile();
-removeSomething();
+openFile(removeSomething);
+
