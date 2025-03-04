@@ -11,7 +11,7 @@ function test1(callback){
 
 function test2(callback){
       setTimeout(()=>{
-            console.log("This is function_1")
+            console.log("This is function_2")
             callback();
       },3000)
       
