@@ -3,7 +3,7 @@ function takeShower(){
             setTimeout(()=>{
                   console.log("You take shower");
                   resolve("You take shower");
-            },3000);
+            },1000);
       })
 }
 function doHomeWork(){
@@ -11,7 +11,7 @@ function doHomeWork(){
            setTimeout(()=>{
                   console.log("You do your homework");
                   resolve("You did it completed your homework");
-           },1000) ;
+           },3000) ;
       })
 }
 function play(){
@@ -22,3 +22,17 @@ function play(){
             })
       },3000)
 }
+takeShower()
+.then((result)=>{
+      console.log(result);
+      return doHomeWork()
+})
+.then((result=>{
+      console.log(result);
+      return play()
+}))
+.then((result)=>{
+      console.log(result)
+      console.log("All Done");
+})
+
