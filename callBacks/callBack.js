@@ -3,11 +3,11 @@ function openFile(){
             console.log('File Opened');
       },2000);
 }
-function addSomethung(){
+function addSomething(){
       console.log('Something Added');
 }
 function removeSomething(){
       console.log('Something Removed');
 }
 openFile();
-addSomethung();
+addSomething();
