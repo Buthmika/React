@@ -12,4 +12,5 @@ function removeSomething(){
       console.log('Something Removed');
 }
 openFile(removeSomething);
+openFile(addSomething);
 
