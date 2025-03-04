@@ -35,7 +35,18 @@ function test4(callback){
 function test5(callback){
       setTimeout(()=>{
 
-      },3000)
+      },10000)
       console.log("This is function_5")
       callback();
 }
+test1(()=>{
+      test2(()=>{
+            test3(()=>{
+                  test4(()=>{
+                        test5(()=>{
+                              console.log("All Done")
+                        })
+                  })
+            })
+      })
+})
