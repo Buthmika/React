@@ -15,5 +15,10 @@ function doHomeWork(){
       })
 }
 function play(){
-
+      return new Promise((resolve, reject) => {
+            setTimeout(()=>{
+                  console.log("What is play");
+                  resolve("You played what you like");
+            })
+      },3000)
 }
