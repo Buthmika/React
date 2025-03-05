@@ -43,3 +43,14 @@ function play(){
             })
       },3000)
 }
+async function doAll() {
+      try{
+            await takeShower();
+      await doHomeWork();
+      await play();
+      }
+      catch(error){
+            console.log(error);
+      }
+}
+doAll();
