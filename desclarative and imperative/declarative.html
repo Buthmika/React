@@ -6,6 +6,15 @@
       <title>Document</title>
 </head>
 <body>
-      
+      <div id="root"></div>
+      <script type="text/babel">
+            const List=()=>(
+                  <ul>
+                        <li>Item One</li>
+                  </ul>
+            );
+            ReactDom.render(<List/>,document.getElementById('root'));
+
+      </script>
 </body>
 </html>
