@@ -6,12 +6,17 @@
       <title>Document</title>
 </head>
 <body>
-      <script src="">
+      <script >
             const list=document.createElement('ul');
             const listItem=document.createElement('li');
+            const listItem2=document.createElement('li');
+
             listItem.textContent='Item 1';
+            listItem2.textContent='Item 2'
             list.appendChild(listItem);
+            list.appendChild(listItem2);
             document.body.appendChild(list);
+            
 
       </script>
 </body>
