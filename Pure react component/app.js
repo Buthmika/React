@@ -17,6 +17,7 @@ const App=()=>{
             {},
             // "This is a React App"
             [React.createElement("h1",{},"My react app"),
+            React.createElement(student),
             React.createElement(student)
             ]
       );
