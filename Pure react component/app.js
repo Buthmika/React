@@ -11,6 +11,11 @@ const student=()=>{
           ]  
       );
 }
+const studentCard=()=>{
+      return React.createElement(
+            
+      )
+}
 const App=()=>{
       return React.createElement(
             "div",
