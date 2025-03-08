@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+  "format": "prettier --write \"**/*.js\""
+  },
   "devDependencies": {
     "prettier": "^3.5.3"
   }
