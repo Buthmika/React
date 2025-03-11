@@ -4,7 +4,7 @@ const student=()=>{
           {},
           [
             React.createElement("h3",{},"Amal"),
-            React.createElement("h3",{},20),
+             React.createElement("h3",{},20),
             React.createElement("h3",{},"Gampaha"),
 
 

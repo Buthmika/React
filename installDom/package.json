@@ -6,5 +6,9 @@
   "repository": "y",
   "author": "y",
   "license": "y",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "dom": "^0.0.3",
+    "react": "^19.0.0"
+  }
 }
