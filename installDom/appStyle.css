@@ -32,6 +32,3 @@ h3 {
     border-bottom: 1px solid #000000;
 }
 
-.st-card:last-child {
-    border-bottom: none;
-  }
