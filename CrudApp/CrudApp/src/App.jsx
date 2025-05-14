@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
 import './App.css'
+import ListUser from './components/ListUser'
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
             <li><Link to="/edit">Edit User</Link></li>
           </ul>
         </nav>
+        <ListUser></ListUser>
 
         <Routes>
-          <Route path="/" element={<h2>List User</h2>} />
+          <Route path="/" element={<h2></h2>} />
           <Route path="/create" element={<h2>Create User</h2>} />
           <Route path="/edit" element={<h2>Edit User</h2>} />
         </Routes>
